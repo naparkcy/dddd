@@ -35,7 +35,7 @@ def turn_right():
    angle = 45
    xycar_msg.data = [angle, 1000]
 def turn_left():
-   angle = -45
+   angle = -450
    xycar_msg.data = [angle, 1000]
 
 rospy.init_node('guide')
